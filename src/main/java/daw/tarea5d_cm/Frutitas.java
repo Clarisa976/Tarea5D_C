@@ -47,4 +47,16 @@ public class Frutitas {
     public void setPeso(double peso) {
         this.peso = peso;
     }
+    //toString
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Frutitas{");
+        sb.append("código: ").append(codFrutita);
+        sb.append(", nombre ").append(nombre);
+        sb.append(", peso ").append(peso);
+        sb.append('}');
+        return sb.toString();
+    }
+    
 }
