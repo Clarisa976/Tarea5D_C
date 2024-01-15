@@ -23,5 +23,28 @@ public class Frutitas {
         this.nombre = nombre;
         this.peso = peso;
     }
-    
+    //getters
+    public String getCodFrutita() {
+        return codFrutita;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public double getPeso() {
+        return peso;
+    }
+    //setters
+    public void setCodFrutita(String codFrutita) {
+        this.codFrutita = codFrutita;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
 }
